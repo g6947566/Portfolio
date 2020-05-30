@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+
+nav{
+    background: gray;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+.menu li{
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+}
+.logo a,
+.toggle a {
+    font-size: 20px;
+}
+.button.secondary {
+    border-bottom: 1px #444 solid;
+}
+
+/*  body  */
+main{
+text-align: center;
+}
+header{
+    display:flex;
+    padding: 200px 0 50px;
+    background: white;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.aboutMe p{
+    
+    width: 80%;
+    padding: 20px 0 50px;
+    background: gray;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+#aboutProjects h2{
+    padding: 0 0 50px ;
+   
+}
+#aboutProjects{
+    padding: 50px 0;
+     border-radius: 10px;
+     width: 80%;
+     display:block;
+     margin: auto;
+ }
+.projectsTitle h3{
+    padding: 25px 0 15px;  
+ }
+ .projectsTitle{
+     background-color: gray;
+     border-radius: 10px;
+     padding: 0 10px 20px;
+ }
+
+.duneImage{
+    padding: 5px 0 0;
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+}
+.projectsTitle p{
+    padding: 15px 0;
+}
+
+.projectsTitle h4{
+    padding: 20px 0 0;
+}
+
+
+
+
+
+footer{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    padding: 0 0 20px;
+    }
+#link-icons img{
+    width: 5vh;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+
+
+
+/* Mobile Menu first */
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .toggle{
+    order: 1;
+  }
+  .item.button{
+      order: 2;
+  }
+  .item{
+      width: 100%;
+      text-align: center;
+      order: 3;
+      display: none;
+  }
+  .item.active{
+      display:block;
+  }
+
+  
+
+  
+
+  /* Tablet Menu */
+@media all and (min-width: 600px){
+  .menu{
+          justify-content: center;
+ }
+  .logo{
+    flex: 1;
+ }      
+  .toggle{
+    flex: 1;
+    text-align: right;
+ }
+  .item.button{
+    width:auto;
+    order: 1;
+    display: block;
+ }
+  .toggle{
+    order: 2;
+ }
+  .button.secondary{
+    border: 0;
+ }
+  .button a {
+    padding: 7.5px 15px;
+    background: lightgray;
+    border: 1px black solid     /*  color for login and signup */
+ }
+  .button.secondary a{
+    background: transparent; /* no color for sign up */
+ }
+  .button a:hover{
+    text-decoration: none;
+ }
+  .button:not(.secondary) a:hover{
+    background:#006d6d;
+    border-color: #005959;
+ }
+  .button.secondary a:hover {
+    color:#ddd;
+ }
+}
+/* Desktop */
+@media all and (min-width: 900px){
+    .item{
+        display:block;
+        width: auto;
+    }
+    .toggle{
+        display: none;
+    }
+    .logo{
+        order:0;
+    }
+    .item{
+        order: 1;
+    }
+    .button{
+        order: 2;
+    }
+    .menu li{
+        padding: 15px 10px;
+    }
+    .menu li.button{
+        padding-right: 0;
+    }
+}
