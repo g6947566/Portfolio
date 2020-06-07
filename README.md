@@ -1,7 +1,7 @@
 # Portfolio
 Description of my many many interest in Web Development
 
-<br>WireFrame Screen Shots<br>
+<br><h3>WireFrame Screen Shots<h3><br>
 <h2>Mobile Screen Shot</h2><br>
 
 ![Mobile](https://user-images.githubusercontent.com/62404151/83339127-a11d4480-a298-11ea-8eaa-994eacfd7ecd.png)
