@@ -1,7 +1,6 @@
 # Portfolio
 Description of my many many interest in Web Development
 
-
 <h2>Mobile Screen Shot</h2><br>
 
 ![Mobile]!(https://user-images.githubusercontent.com/62404151/83975584-9844f800-a8c2-11ea-8b26-d1a1fd8acf5b.png)
