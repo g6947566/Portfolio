@@ -22,12 +22,16 @@ ul{
     list-style-type: none;
 }
 a{
-    color: white;
-    text-decoration: none;
+ text-decoration: none;
+ color: #E5E8DF; 
+ 
+ 
 }
+
 a:hover{
     text-decoration: underline;
 }
+
 .logo a:hover{
     text-decoration: none;
 }
@@ -36,12 +40,19 @@ a:hover{
     padding: 15px 5px;
     white-space: nowrap;
 }
+
+.logo{
+    font-family: 'Black Ops One', cursive;
+    
+       
+}
+
 .logo a,
 .toggle a {
-    font-size: 20px;
+    font-size: 30px;
 }
 .button.secondary {
-    border-bottom: 1px #444 solid;
+    border-bottom: 1px solid;
 }
 
 /*  body  */
@@ -51,25 +62,56 @@ text-align: center;
 header{
     display:flex;
     padding: 200px 0 50px;
-    background: white;
+    
     justify-content: center;
     align-content: center;
+    font-family: 'Black Ops One', cursive;
+  
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+
+    
+    
 }
 
-
-.aboutMe p{
+.aboutMe{
     
     width: 80%;
+    height: 90%;
     padding: 20px 0 50px;
-    background: gray;
+    background: #E5E8DF;
     border-radius: 10px;
     display: block;
-    margin: auto;
-}
-#aboutProjects h2{
-    padding: 0 0 50px ;
+    margin:0 auto 0;
+    max-width: 700px;
+    text-align: left;
+    line-height: 1.8em;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 50px;
+   
    
 }
+.nameNam{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+} 
+h2{
+    font-size: 40px;
+}
+
+#aboutProjects h2{
+    padding: 0 0 50px ;
+    font-family: 'Black Ops One', cursive;/* title font*/
+   
+   
+}
+
+
 #aboutProjects{
     padding: 50px 0;
      border-radius: 10px;
@@ -79,18 +121,22 @@ header{
  }
 .projectsTitle h3{
     padding: 25px 0 15px;  
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
  }
  .projectsTitle{
-     background-color: gray;
+     background-color: #E5E8DF;
      border-radius: 10px;
      padding: 0 10px 20px;
  }
+
 
 .duneImage{
     padding: 5px 0 0;
     width: 100%;
     height:auto;
     border-radius: 10px;
+   
 }
 .projectsTitle p{
     padding: 15px 0;
@@ -98,8 +144,30 @@ header{
 
 .projectsTitle h4{
     padding: 20px 0 0;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.appLinks {
+    padding: 22px 0;
+    display: flex;
+    justify-content: center;
 }
 
+
+.appLinks a{
+    font-size: 22px;
+    min-width: 20%;
+    color:black;
+    padding: 5px;
+    justify-content: center;
+    border: solid 2px black;
+    
+   
+}
+.appLinks a:hover{
+    background-color: orange;
+}
 
 
 
@@ -176,7 +244,7 @@ footer{
  }
   .button a {
     padding: 7.5px 15px;
-    background: lightgray;
+    background: rgb(119, 114, 114);
     border: 1px black solid     /*  color for login and signup */
  }
   .button.secondary a{
@@ -186,8 +254,8 @@ footer{
     text-decoration: none;
  }
   .button:not(.secondary) a:hover{
-    background:#006d6d;
-    border-color: #005959;
+    background:black;
+    border-color: #593200;
  }
   .button.secondary a:hover {
     color:#ddd;
